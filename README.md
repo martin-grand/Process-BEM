@@ -58,7 +58,7 @@ var source = '<span class="button.icon(arrow)">',
 </script>
 ```
 
-### The `result` div will contains:
+### The `result` div will contain:
 
 ```html
 <a class="button">
