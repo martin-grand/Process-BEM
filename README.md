@@ -1,5 +1,5 @@
 # Process-BEM
-preprocess html class naming and compile it to bem syntax
+A little bem naming markdown for html. Shorten and awesomize your html templates!
 
 ##How it works?
 Compile a template in JavaScript by using **ProcessBEM**
