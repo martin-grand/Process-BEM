@@ -1,4 +1,10 @@
-function processBem(html) {
+;(function (processor) {
+	if (typeof module !== 'undefined' && module.exports) {
+		module.exports = processor;
+	} else {
+		this.ProcessBEM = processor;
+	}
+})(function (html) {
 	var isBemRegexp = /[.(]/g,
 		whiteSpaceRegexp = /\s+/g,
 		multipleWhiteSpaceRegexp = /\s\s+/g,
@@ -59,4 +65,4 @@ function processBem(html) {
 	
 	return processHtml(html);
 
-}
+});
